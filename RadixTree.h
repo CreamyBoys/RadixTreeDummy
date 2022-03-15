@@ -1,3 +1,6 @@
+#ifndef RadixTree_h
+#define RadixTree_h
+
 // DUMMY IMPLEMENTATION
 #include <unordered_map>
 #include <unordered_set>
@@ -38,3 +41,5 @@ ValueType* RadixTree<ValueType>::search(std::string key) const {
     }
 
 }
+
+#endif
